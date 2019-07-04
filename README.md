@@ -1,12 +1,12 @@
-## DEPLOY 🤖
+## DEPLOY 🤖🤖!!
 
-##Installation
-1. npm i to install dependencies
+## Installation
+1. **npm i** to install dependencies
 
 ## Usage
-1. npm start to run application
+1. **npm start** to run application
 2. Commands:
-  - place=x,y,f
+  - place=x,y,f (ex. place=0,0,north)
   - move
   - left
   - report
@@ -14,6 +14,6 @@
 
 ## Tests
 
-1. npm test
+1. **npm test**
 
 * please take note that in test case # 3, the test output in the document is not correct

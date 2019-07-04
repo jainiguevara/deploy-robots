@@ -15,7 +15,7 @@ rl.question('Deploy robots initiated. Select command (place=x,y,f, move, left, r
   if (ans.includes('place=')) {
     const args = answer.split('=')[1].split(',')
     if (args.length > 1) {
-      r.place(parseInt(args[0]), parseInt(args[1]), args[2]);
+      r.place(parseInt(args[0].trim()), parseInt(args[1].trim()), args[2].trim());
     } else {
       console.log('Must have (x, y, f) arguements')
     }
@@ -41,7 +41,7 @@ rl.question('Deploy robots initiated. Select command (place=x,y,f, move, left, r
       if (cmd.includes('place=')) {
         const args = answer.split('=')[1].split(',')
         if (args.length > 1) {
-          r.place(parseInt(args[0]), parseInt(args[1]), args[2]);
+          r.place(parseInt(args[0].trim()), parseInt(args[1].trim()), args[2].trim());
         } else {
           console.log('Must have (x, y, f) arguements')
         }
