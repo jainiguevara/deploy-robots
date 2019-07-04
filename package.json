@@ -1,0 +1,10 @@
+{
+  "name": "robots",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
